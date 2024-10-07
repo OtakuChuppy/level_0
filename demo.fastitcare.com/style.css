@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+body {
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Hind siliguri", sans-serif;
+}
+
+#logo_div {
+    margin-top: 20px;
+    margin-left: 37%;
+    height: 14vh;
+}
+
+#other_pagslikns {
+    height: 120px;
+    align-items: center;
+    margin: 12px 110px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.one_link {
+    margin: 9px;
+    padding: 4px;
+    display: inline;
+    border: 0px;
+    border-radius: 7px;
+    font-size: 11px;
+    color: rgb(0, 0, 0);
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 26px;
+    width: 119px;
+    filter: blur(#fff);
+    box-shadow: 0px 4px 8px rgba(223, 222, 220, 0.3);
+}
+
+.one_link.Chartreuse {
+    background-color: #fff9e5;
+}
+
+.one_link.Cerulean {
+    background-color: #ffe5fe;
+}
+
+.one_link.Viridian {
+    background-color: #e6ffe5;
+}
+
+.one_link.Amaranth {
+    background-color: #e6f0e5;
+}
+
+.one_link.Periwinkle {
+    background-color: #e6f0e5;
+}
+
+.one_link.BurntSienna {
+    background-color: #e6ffe5;
+}
+
+.one_link.Coral {
+    background-color: #ffe5fe;
+}
+
+.one_link.Fuchsia {
+    background-color: #fff9e5;
+}
+
+.flex {
+    display: flex;
+}
+
+.mt-6 {
+    margin-top: 1.5rem;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.w-16 {
+    width: 60vw;
+}
+
+.h-1 {
+    height: 0.05rem;
+}
+
+.rounded-full {
+    border-radius: 9999px;
+}
+
+.bg-indigo-500 {
+    background-color: #333333;
+}
+
+.inline-flex {
+    display: inline-flex;
+}
+
+#★★★★★ {
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffdc65;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.প্রিমিয়াম {
+    margin: 11px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.সকলের {
+    color: #f1f1f1;
+    font-size: 15px;
+    margin: 0 0 14.4px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.imgA {
+    background-color: #ffffff;
+    border-radius: 7px;
+}
+
+.atagforA {
+    background-color: #ffffff;
+}
+
+.icon {
+    background: transparent;
+}
+
+.iconb {
+    background: transparent;
+}
+
+.sadk {
+    margin-top: 27px;
+    margin-bottom: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.buttontag {
+    text-align: center;
+    border: 0;
+    background-color: #ffffff;
+    font-size: 15px;
+    padding: 12px 24px;
+    border-radius: 5px;
+    filter: blur(#fff);
+    box-shadow: 8px 4px 11px rgba(218, 217, 216, 0.719);
+}
+
+/* .card, .buttontag {
+    animation: slideUpA 1s ease forwards;              
+                                                              sgddddddd */
+
+/* @keyframes slideUpA {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    } */
+
+h2,
+p,
+#★★★★★ {
+    animation: slideUpA 1s ease forwards;
+    /* sgddddddd */
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: aliceblue;
+    height: 438px;
+    width: 270px;
+    border-radius: 9px;
+    margin: 12px;
+    margin-top: 57px;
+    /* Apply the transition property for the hover effect */
+    transition: transform 0.5s ease !important;
+    /* Initial slide-up effect when the page loads */
+    animation: slideUpA 1s ease forwards;
+}
+
+.card:hover {
+    /* This will move the card up by 6 pixels on hover */
+    transform: translateY(-16px) !important;
+}
+
+@keyframes slideUpA {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Additional styles for other elements */
+.imgA img {
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+.atagforA {
+    font-weight: 900;
+    margin: 37px;
+    text-decoration: none;
+    color: black;
+    font-family: "Hind Siliguri", sans-serif;
+}
+
+.abcd {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.btnm {
+    height: 40px;
+    width: 225px;
+    background-color: #000000;
+    padding: 14px 11px 37px 10px;
+    text-align: center;
+    margin: 12px;
+    margin-left: 22px;
+    border-radius: 7px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btnm:hover {
+    transform: translateY(-6px);
+    background-color: rgb(255, 115, 0);
+}
+
+.duii {
+    height: 40px;
+    width: 225px;
+    background-color: #066AEB;
+    padding: 14px 8px 33px 11px;
+    text-align: center;
+    margin: 12px;
+    margin-left: 22px;
+    border-radius: 7px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.duii:hover {
+    transform: translateY(-6px);
+    background-color: #0c5ec9;
+}
+
+.dui {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.imgA {
+    background-color: #ffffff;
+    border-radius: 7px;
+}
+
+.atagforA {
+    background-color: #ffffff;
+}
+
+.icon {
+    background: transparent;
+}
+
+.iconb {
+    background: transparent;
+}
+
+.sadk {
+    margin-top: 27px;
+    margin-bottom: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.buttontag {
+    text-align: center;
+    border: 0;
+    background-color: #ffffff;
+    font-size: 15px;
+    padding: 12px 24px;
+    border-radius: 5px;
+    box-shadow: 8px 4px 11px rgba(218, 217, 216, 0.719);
+}
+
+.card,
+.buttontag {
+    animation: slideUpA 1s ease-out forwards;
+}
+
+/* @keyframes slideUp {
+
+        from {
+            transform: translateY(100%);
+            opacity: 0;
+        }
+
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    } */
+
+.secondcontaner {
+    height: 181.4px;
+    width: 302.4px;
+    color: #333333;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-family: "poppins", sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 6px;
+    margin: 65px;
+}
+
+.Oimg {
+    height: 50px;
+    width: 50px;
+    background-color: #ffffff;
+    display: block;
+    margin-left: 126.2px;
+}
+
+.firstdivOc {
+    background-color: #ffffff;
+}
+
+.backgroundcolor {
+    background-color: #ffffff;
+    height: 700px;
+    width: auto;
+    border-radius: 50px;
+}
+
+.sdfbhfjkh {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 67px;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: "Hind siliguri", sans-serif;
+}
+
+.sabhhsg {
+    font-weight: 900;
+    font-family: "Hind siliguri", sans-serif;
+    color: #000000;
+    font-size: 36px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.green {
+    color: green;
+    font-weight: 900;
+    font-family: "Hind siliguri", sans-serif;
+    font-size: 36px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.secondcommon {
+    background-color: #ffffff;
+    display: flex;
+}
+
+.class {
+    background-color: #ffffff;
+    border: 2px solid rgb(148, 148, 148);
+    height: 600px;
+    width: 322px;
+    border-radius: 19px;
+    margin: 32px;
+    margin-left: 80px;
+}
+
+.class>img {
+    border-radius: 12px;
+    margin: 17px;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+.one {
+    /* margin-top: 17px; */
+    margin-left: 43px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.class:hover {
+    transform: translateY(-16px) !important;
+}
+
+.Ooo{
+    background-color: #ffffff;
+}
